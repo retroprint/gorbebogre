@@ -1,0 +1,1894 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "name": "Retrobögre",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      }
+    },
+    "versionFirst": "3.10.5",
+    "uniqCompNum": 53,
+    "versionPublish": "3.10.5",
+    "favicon": "@PROJECT_PATH@/assets/images/logopixel-128x129.png",
+    "noImageResize": "",
+    "cookiesAlert": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 2
+      },
+      "components": [
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 retroprint.hu"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-c",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nvtelen-1-366x128-1.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "camera",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">RETROPRINT.HU</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features3-9\">TERMÉKEK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"bemutat.html\">BEMUTATKOZÁS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"hisz.html\">HISZÜNK BENNE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"techno.html\">TECHNOLÓGIA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">CSAK VISZONTELADÓK</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">WEBSHOP HAMAROSAN</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-o",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/18res6gztc4lyjpg-2000x1332-5.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "GÖRBE BÖGRE MŰHELY",
+          "text": "Retro bögre, görbe bögre, igazi bögre, öreganyám bögréje. Igazi szocreál ajándéktárgyak 2017-ben. Ha emlékszel a vasedényre, a centrumra, a skála-kópéra meg a fabulon-Ágira, akkor sajnos annyi idős vagy mint én. Trendi és nagyon cool, retrós nyomatokkal gyártjuk, de ha valami ütős és egyedi céges ajándéktárgyat keresel akkor a Te logóddal is elkészítjük.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-p",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><p>Akik 1990 előtt születtek, azok valódi hősök, olyasféle igazi hollywood-i mindent túlélő fenegyerekek.&nbsp;<span style=\"font-size: 1.09rem; line-height: 1.5;\">De tényleg!</span></p><p><span style=\"font-size: 1.09rem; line-height: 1.5;\">Gondolj csak bele, akik 1990 előtt születtek, azaz MI, kész csoda, hogy életben maradtunk.</span><span style=\"font-size: 1.09rem; line-height: 1.5;\">Nekünk még nem volt gyerekülésünk az autóban, a gyógyszeres és vegyszeres üvegek könnyedén nyithatóak voltak, nem volt semmi furfangos védelemmel ellátva, de még a fiókok és ajtók sem voltak felszerelve biztonsági nyitóval.<a href=\"bemutat.html\" target=\"_blank\"> &gt;&gt;&gt;tovább&gt;&gt;&gt;</a></span></p></blockquote><br>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_styles": {
+            "H5": {
+              "text-align": "right"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "features3-9",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "4",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/p-20170118-121953-600x337.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "retrobogre.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Retrobögre",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Retrobögre, görbebögre, bádogbögre, pléhbögre, fémbögre, nosztalga bögre. &nbsp; &nbsp;",
+          "button1": "<a data-app-btn=\"true\" href=\"retrobogre.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">RETROBÖGRE</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/p-20170118-123754-600x337.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "board.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Fém tábla",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "Retro fém tábla, alumínium lemez tábla, nosztalgia tábla, két méret, több száz dekor.",
+          "button2": "<a data-app-btn=\"true\" href=\"board.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">fÉM TÁBLA</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/p-20170118-125232-600x337.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "magnet.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "Hűtőmágnes",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Hűtőmágnes, fridge magnet, mágnes, retro mágnes. Alumínium lemezre nyomtatva.",
+          "button3": "<a data-app-btn=\"true\" href=\"magnet.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">HŰTŐMÁGNES</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/p-20170118-124125-600x337.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "keyring.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "Kulcstartó",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Plexi kulcstartó, hullámkarton csomagolásban, Számtalan dekorral, mindig kéznél!",
+          "button4": "<a data-app-btn=\"true\" href=\"keyring.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">KULCSTARTÓ</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "form1-1g",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "KAPCSOLAT",
+          "subtitle": "Ha szeretné felvenni velünk a kapcsolatot, kéjük adja meg elérhetőségét!",
+          "form": {
+            "action": "r3g1str4l@gmail.com",
+            "alerts": {
+              "success": "Köszönjűk érdeklődését, hamarosan jelentkezünk!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Név*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Üzenet:"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ELKÜLDÖM</a>"
+        }
+      ]
+    },
+    "bemutat.html": {
+      "settings": {
+        "order": 3
+      },
+      "components": [
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-d",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 retroprint.hu"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "72px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          },
+          "_anchor": "header1-m",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/18res674ivbkajpg-2000x1332-1.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "Akik 1990 előtt születtek,",
+          "text": "&nbsp;azok valódi hősök, olyasféle igazi hollywood-i mindent túlélő fenegyerekek.<br>De tényleg!<br><a href=\"bemutat.html#content2-n\">&gt;&gt;&gt;tovább&gt;&gt;&gt;</a>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-n",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><p><br></p><p>Gondolj csak bele, akik 1990 előtt születtek, azaz MI, kész csoda, hogy életben maradtunk.</p><p>Nekünk még nem volt gyerekülésünk az autóban, a gyógyszeres és vegyszeres üvegek könnyedén nyithatóak voltak, nem volt semmi furfangos védelemmel ellátva, de még a fiókok és ajtók sem voltak felszerelve biztonsági nyitóval.</p><p>És mikor bicajozni mentünk, nemhogy könyökvédőnk és sisakunk nem volt, de még rendes biciklink sem. Azért az nem volt semmi. Mi még csapból ittuk a vizet, és azt se tudtuk, mit jelent pontosan az ásványvíz. Mi nem nagyon unatkoztunk, ha tehettük kimentünk játszani. Igen, ki! Egész nap kint voltunk, a szüleink pedig csak sejtették, hogy élünk és megvagyunk, hiszen még Matáv telefon se nagyon volt, nemhogy mobil. Pláne nekünk, gyerekeknek! Nyáron a derékig érő fűben és közeli kiserdőkben játszottunk, mégsem lettünk kiütésesek és nem tört ránk allergiás roham. Nem tudtuk mi az a pollen, és a parlagfűről azt hittük, hogy a sárkányfű egyenes ági rokona.</p><p>Ha elestünk, megsérültünk, eltört valamelyik végtagunk, vagy csak szimplán betört a fejünk, senkit nem pereltek be ezért. Egyszerűen mi voltunk a hibásak. Sőt! Ha az erősebb elgyapálta unalmában a kisebbet és gyengébbet, az is rendben volt. Ez így működött és a szüleink nem nagyon szóltak bele ebbe sem. Étkezési szokásaink Schobert Norbi mércéjével mérve nap mint nap tartalmazták a halálos dózis többszörösét, de még egy MC-Donalds-on edződött átlagos amerikai elhízott kisgyerek is helyből nyomna egy hátra szaltót attól, amit mi leküldtünk kaja címszóval. Gondoljunk csak az iskolai menzára..</p><p>És mégis itt vagyunk.</p><p>A kakaóban nem volt A, B, C, D és E vitamin, viszont Bedeko-nak hívták és már ez is elég volt a boldogságunkhoz. Szobi szörpöt ittunk, ami hírből sem ismerte az édesítőszert, viszont tömény cukorból készült. A limonádét még magunknak kevertük, és mosatlanul ettük a fáról a gyakran éretlen gyümölcsöt. Voltak barátaink! Olyanok, akikkel találkoztunk kint az utcán, a focipályán vagy a pingpong asztaloknál, vagy ha mégse, akkor egyszerűen becsengettünk hozzájuk és beengedtek minket. Nem kellett megkérdezni a szülőket. Sem a miénket, sem az övéket! Nem vittek és nem hoztak a szülők autóval.</p><p>Nyakunkban lógott a lakáskulcs, mikor játszani mentünk, és nem ritkán fadarabokkal, botokkal harcoltunk, labdával dobáltuk egymást, mégis itt vagyunk. Nem ütöttük ki egymás szemét, a többi seb pedig begyógyult. Focizni is csak az állhatott be, aki tudott. Akkor még volt egy íratlan szabály, amit ma nehezen értünk már meg mi is: azt csináld, amihez értesz. Aki pedig nem értett a focihoz, pláne nem tudta rendesen kirúgni az ellenfél bokáját, az csak csalódottan nézhette a játékot a rácson túlról, vagy odébb állhatott, és más játékot, más játszótársakat kereshetett magának. A szerelmet nem brazil sorozatokból tanultuk, csak egyszerűen megéltük. Boldogan szaladtunk végig az utcán az első csók után, úgy, mintha már sohasem akarnánk megállni. Ha egy tanár nyakon vágott, nem szúrtuk le egy késsel, nem pereltük be és nem sírtunk otthon a szülőknek. Sőt! Ha lehetett, el se mondtuk. Ismertük a törvényt és ha vétkeztünk, szüleink nem álltak mellénk. Megtanítottak úgy élni, hogy tudjuk, mit jelent a KÖTELESSÉG, a BŰNTUDAT, a JÓÉRZÉS, a FELELŐSSÉG. Ismertük ezeknek a szavaknak a MÉLYSÉGÉT. Ezek voltunk mi. Hősei egy eltűnt kornak, amelyen a mostani fiatalok értetlenül mosolyognak</p></blockquote>"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1c",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/nvtelen-1-366x128-2.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">RETROPRINT.HU</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features3-9\">TERMÉKEK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"bemutat.html\">BEMUTATKOZÁS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"hisz.html\">HISZÜNK BENNE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"techno.html\">TECHNOLÓGIA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">CSAK VISZONTELADÓK</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">WEBSHOP HAMAROSAN</a></li>"
+        }
+      ]
+    },
+    "hisz.html": {
+      "settings": {
+        "order": 3
+      },
+      "components": [
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-q",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 retroprint.hu"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-r",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/nvtelen-1-366x128-3.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">RETROPRINT.HU</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features3-9\">TERMÉKEK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"bemutat.html\">BEMUTATKOZÁS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"hisz.html\">HISZÜNK BENNE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"techno.html\">TECHNOLÓGIA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">CSAK VISZONTELADÓK</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">WEBSHOP HAMAROSAN</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "72px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          },
+          "_anchor": "header1-s",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/18res6stvqdtvjpg-2000x1332-1.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "Fenntartható fejlődés<div>Tisztább termelés</div><div>Környezetbarát szemlélet</div>",
+          "text": "<p><br><a href=\"hisz.html#content2-t\">&gt;&gt;&gt;tovább&gt;&gt;&gt;</a><a href=\"bemutat.html#content2-n\"></a></p>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-t",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">A nyolcvanas évek elején jelent meg a \"fenntarthatóság\" vagy a \"fenntartható fejlődés\" kifejezés a nemzetközi szakirodalomban. Általános ismertségét Lester R. Brown a fenntartható társadalom kialakításával foglalkozó műve váltotta ki, amely 1981-ben jelent meg. A szerző összekapcsolta a népesség növekedését a természeti erőforrások hasznosításával és mindezt úgy kívánta megoldani, hogy a lehető legkisebb legyen a természeti környezet mennyiségi és minőségi romlása.</span><br></p><p>1983-ban az ENSZ Közgyűlés határozata alapján megkezdte munkáját az ENSZ Környezet és Fejlődés Világbizottsága, amelyet Gro Harlem Brundtland norvég miniszterelnöknő vezetett. (E huszonkét tagú bizottságnak tagja volt Láng István akadémikus is.) A Bizottság 1987-ben ,,Közös jövőnk'' címmel kiadott jelentésében a gazdasági növekedés olyan új korszakának lehetőségét vázolta fel, amely a fenntartható fejlődés globális megvalósítására épít, megőrzi a természeti erőforrásokat, s amely megoldás lehetne a fejlődő országok nagy részében elhatalmasodó szegénység leküzdésére is.</p><p>A jelentés nagyon röviden és tömören határozta meg a fenntartható fejlődés fogalmát: \"a fenntartható fejlődés olyan fejlődés, amely kielégíti a jelen szükségleteit, anélkül, hogy veszélyeztetné a jövő nemzedékek esélyét arra, hogy ők is kielégíthessék szükségleteiket\".</p><p>A fenntartható fejlődés három alappilléren nyugszik: a szociális, a gazdasági és a környezeti pilléreken és mindhármat együttesen, kölcsönhatásaik figyelembevételével mérlegelni kell a különböző fejlesztési stratégiák, programok kidolgozása során, illetve a konkrét intézkedésekben, cselekvésekben. A fenntartható fejlődés, mint általános stratégiai cél \"bevonult\" a nemzetközi konferenciák, szervezetek dokumentumaiba és a nemzeti kormányok cselekvési programjaiba.</p><p>A fenntartható fejlődés fogalmáról, lényegéről számos elemzés, vitairat látott napvilágot. Herman Daly megfogalmazása szerint \"a fenntartható fejlődés a folytonos szociális jólét elérése, anélkül, hogy az ökológiai eltartó-képességet meghaladó módon növekednénk\".</p><p>A fejlődés alapvető célja tehát a szociális jólét, a méltányos életfeltételek lehetőségének biztosítása mindenki és egyaránt a jelenlegi és a jövőbeli nemzedékek számára, ami csak úgy lehetséges, ha közben fenntartható módon hasznosítjuk a természeti erőforrásokat, elkerüljük a káros hatásokat, s különösen a környezet állapotában bekövetkező visszafordíthatatlan változásokat.</p><p>A tisztább termelés filozófiája</p><p>A tisztább termelés az átfogó, megelőző környezetvédelmi stratégiák folyamatos alkalmazását jelenti, amely egyaránt alkalmazható folyamatokra, termékekre és szolgáltatásokra. Ezek hatékonyságának növelését és az ember és környezetének veszélyeztetettségének csökkentését tűzi ki céljául.</p><p><br></p><p>Folyamatok esetében a tisztább termelés a nyersanyagok hatékonyabb felhasználását, a veszélyes és mérgező anyagok kiváltását és az emissziók forrásuknál történő csökkentését jelenti.</p><p><br></p><p>A termékek és szolgáltatások esetében a teljes életciklus során okozott környezetterhelés csökkentése áll a középpontban, a nyersanyag kitermelésétől a végső ártalmatlanításig.</p><p><br></p><p>Szolgáltatások esetében a környezeti szempontok beépítését jelenti a szolgáltatások tervezésébe és kivitelezésébe.</p><p><br></p><p>A környezetvédelem jelenleg alkalmazott módszerei a már megtermelt hulladékok és emissziók ártalmatlanítására koncentrálnak, azaz a csővégi technológiákat részesítik előnyben. A tisztább termelés célja ezzel szemben az, hogy megakadályozza a környezetet szennyező anyagok keletkezését, azaz elősegítse a környezet károsításának megelőzését.</p><p>A tisztább termelés gyakorlati megvalósítása</p><p>A nyersanyag- és energiaköltségek, valamint a hulladékok ártalmatlanítási költségeinek csökkentése elősegíti a folyamatok hatékonyságának és jövedelmezőségének növelését, fokozva ezáltal a vállalatok versenyképességét. Ezek az ún. alacsony beruházási költségű intézkedések általában a gyorsan megtérülő, egyszerű megoldásokat foglalják magukban. Legtöbbször épp azon tulajdonságuk teszik őket nehezen láthatóvá, hogy annyira kézenfekvőek.</p><p>A tisztább termelés másik lehetséges megvalósítása a technológiák módosítása. A tisztább termeléssel kapcsolatos tapasztalatok azt mutatják, hogy nagyon sok területen lehet a termelési folyamatokat alacsony vagy elenyésző költségekkel fejleszteni. Mivel ezek a módosítások már komolyabb átgondolást és beruházást igényelnek, kivitelezésük is több nehézségbe ütközhet.</p><p>Eszközök</p><p>A tisztább termelési intézkedések megvalósításához, mint minden környezetvédelmi és más újító intézkedés megvalósításához is, szükség van a változáshoz és változtatáshoz való hajlandóságra.</p><p>A változások kivitelezéséhez nélkülözhetetlen a felelős környezetvédelmi vezetés megléte. Az általuk használható eszközök, többek között, magukban foglalják a gondos bánásmódot és az ökotérképezést is.</p><p>A gondos bánásmód kifejezés számos, a józan ész által diktált praktikus intézkedésre vonatkozik, mint például a világítás lekapcsolása a helyiség elhagyásakor. Az öko-térképezés a cég környezeti átvilágításának szisztematikus módszere, ahol a telephely térképén tüntetik fel a problémás területeket.</p><p>&nbsp;</p><p><br></p></blockquote>"
+        }
+      ]
+    },
+    "retrobogre.html": {
+      "settings": {
+        "title": "Retrobögre"
+      },
+      "components": [
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-v",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 retroprint.hu"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-w",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nvtelen-1-366x128-4.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "camera",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">RETROPRINT.HU</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features3-9\">TERMÉKEK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"bemutat.html\">BEMUTATKOZÁS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"hisz.html\">HISZÜNK BENNE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"techno.html\">TECHNOLÓGIA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">CSAK VISZONTELADÓK</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">WEBSHOP HAMAROSAN</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/retrobogre0006-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/retrobogre0006-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/retrobogre0008-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/retrobogre0008-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/retrobogre0011-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/retrobogre0011-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/retrobogre0015-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/retrobogre0015-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/retrobogre0017-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/retrobogre0017-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/retrobogre0010-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/retrobogre0010-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/retrobogre0027-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/retrobogre0027-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/retrobogre0028-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/retrobogre0028-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/retrobogre0029-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/retrobogre0029-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/retrobogre0036-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/retrobogre0036-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/retrobogre0058-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/retrobogre0058-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/retrobogre0092-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/retrobogre0092-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "0",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-x",
+          "articleLayout": false,
+          "allItem": "All"
+        }
+      ]
+    },
+    "magnet.html": {
+      "settings": {
+        "title": "Hűtőmágnes"
+      },
+      "components": [
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-11",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 retroprint.hu"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-12",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nvtelen-1-366x128-5.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "camera",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">RETROPRINT.HU</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features3-9\">TERMÉKEK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"bemutat.html\">BEMUTATKOZÁS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"hisz.html\">HISZÜNK BENNE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"techno.html\">TECHNOLÓGIA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">CSAK VISZONTELADÓK</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">WEBSHOP HAMAROSAN</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170118-125307-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170118-125307-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170118-124534-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170118-124534-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170118-124558-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170118-124558-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170118-124735-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170118-124735-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170118-125207-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170118-125207-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170118-124949-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170118-124949-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170118-125101-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170118-125101-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170118-125158-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170118-125158-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "0",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-13",
+          "articleLayout": false,
+          "allItem": "All"
+        }
+      ]
+    },
+    "keyring.html": {
+      "settings": {
+        "title": "Kulcstartó"
+      },
+      "components": [
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-14",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 retroprint.hu"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-15",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nvtelen-1-366x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "camera",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">RETROPRINT.HU</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features3-9\">TERMÉKEK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"bemutat.html\">BEMUTATKOZÁS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"hisz.html\">HISZÜNK BENNE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"techno.html\">TECHNOLÓGIA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">CSAK VISZONTELADÓK</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">WEBSHOP HAMAROSAN</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170118-124020-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170118-124020-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170118-124031-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170118-124031-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170118-124056-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170118-124056-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170118-124132-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170118-124132-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170118-124216-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170118-124216-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170118-124226-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170118-124226-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170118-124240-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170118-124240-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170116-112714-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170116-112714-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "0",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-16",
+          "articleLayout": false,
+          "allItem": "All"
+        }
+      ]
+    },
+    "board.html": {
+      "settings": {
+        "title": "Fém retro tábla"
+      },
+      "components": [
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-y",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 retroprint.hu"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-z",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nvtelen-1-366x128-6.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "camera",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">RETROPRINT.HU</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features3-9\">TERMÉKEK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"bemutat.html\">BEMUTATKOZÁS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"hisz.html\">HISZÜNK BENNE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"techno.html\">TECHNOLÓGIA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">CSAK VISZONTELADÓK</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">WEBSHOP HAMAROSAN</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/retrotabla0003-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/retrotabla0003-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/retrotabla0004-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/retrotabla0004-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/retrotabla0007-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/retrotabla0007-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/retrotabla0005-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/retrotabla0005-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170118-123127-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170118-123127-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170118-123205-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170118-123205-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170118-123412-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170118-123412-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170118-123754-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170118-123754-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170118-123624-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170118-123624-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170118-124448-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170118-124448-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170116-111623-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170116-111623-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p-20170118-123821-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p-20170118-123821-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              }
+            ],
+            "spacing": "0",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-10",
+          "articleLayout": false,
+          "allItem": "All"
+        }
+      ]
+    },
+    "techno.html": {
+      "settings": {
+        "order": 3,
+        "title": "Technológia"
+      },
+      "components": [
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-1b",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 retroprint.hu"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1c",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/nvtelen-1-366x128-2.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">RETROPRINT.HU</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features3-9\">TERMÉKEK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"bemutat.html\">BEMUTATKOZÁS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"hisz.html\">HISZÜNK BENNE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"techno.html\">TECHNOLÓGIA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">CSAK VISZONTELADÓK</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">WEBSHOP HAMAROSAN</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "72px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          },
+          "_anchor": "header1-1d",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/18res5x9f379fjpg-2000x3003.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "ALKALMAZOTT TECHNOLÓGIA",
+          "text": "<p><br><a href=\"techno.html#features3-1f\">&gt;&gt;&gt;tovább&gt;&gt;&gt;</a><a href=\"hisz.html#content2-t\"></a><a href=\"bemutat.html#content2-n\"></a></p>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "features3-1f",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "2",
+            "showImages": false,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/table.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Szublimációs technológia",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "<span style=\"font-size: 1rem; line-height: 1.5;\">Napjaink legmodernebb emblémázási technológiái közé sorolják, sokrétű alkalmazási területe és kíváló minősége miatt. A kis darabszámú (némely esetben ez a tömegtermelésre is igaz) fotóminőségű emblémázás legolcsóbb megoldása, alkalmazási területének az emblémázni kívánt anyag kémiai szerkezete szabhat határt. A technológiának három alappillére van, speciális festék, speciális papír és az emblémázni kívánt felület poliészter tartalma.</span><br>A kívánt grafikát digitális nyomtatóval (erre csak egyes nyomtatók &nbsp;alkalmasak), a már említett szublimációs festékkel kinyomtatjuk egy speciális papírra, ami kimondottan erre a technológiára lett kifejlesztve. Fontos a nyomtatás előtt a színek beálítása megfelelő színprofil (ICC profile) alkalmazásával, és figyelnünk kell a grafika tükrözésének megjelölésére.<br>Ez után a megfelelően kinyomtatott grafikát egy vasalóprés segítségével (amelynek típusát a munkadarab határozza meg) 210-230 C –on 20-40mp időintervallumban kb: 5-6bar nyomáson hőpréseljük. Ekkor alakul ki a szublimáció, a hő hatására a papíron levő vizesbázisú festék elkezd párologni, a nyomás segítségével a gőz csak egy irányba és nagyon koncentrált módon tud haladni, így kapunk megfelelő határvonalat. A festékben lévő atomok és az emblémázni kívánt termékben (vagy felületén) lévő szénatomok oldhatatlan szublimációs kötést alkotnak. A technológia előnye hogy a festék nem csak a felületen hanem az anyag pólusaiban is megtalálható",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title2": "Diffúziós technológia",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "Előnyei:&nbsp;Magas kopásállóság (mivel a festékréteg bele diffundálódik a mázba)<br>Nagy szériánál olcsóbb a szublimációnál.<br>Hátrányai:&nbsp;Teljes nyomdai előkészítést kíván (film levilágítás, színre bontás, stb.)<br>Szita készítés, nyomtatás idő igényes és költséges<br>Kis szériánál gazdaságtalan a fent felsoroltak miatt.<br>A beégetés magas hőfokon (650-950 celsius) történik<br>&nbsp;Diffúzió akkor következik be, ha az anyagban különbözö töménység és termikus mozgás hatására anyagáramlás indul meg a kisebb töménységü helyek felé. Pl. a mélynyomóhenger készítésénél a vas-klorid-oldat diffúziója a pigmentpapírba szabályozza a maratást.<br>Molekuláris diffúzió: A diffúzió(molekuláris) egy anyagáramlási jelenség, melynek hajtóereje a sűrűségkülönbség. Az anyagáramlás sebessége a sűrűséggradienssel arányos. Ha más erő nem lép fel, a diffúzió képes megszüntetni a sűrűségkülönbséget.Ezt a jelenséget Brown-mozgásnak is szokták hívni, melyet a Fick törvény ír le. Egy szemléletes diffúziós jelenség, amikor egy látható füst betölti a szobát. De diffúziós folyamat a szagok terjedése is.Még egy példa: Két kamrát egy cső köt össze, mely szeleppel zárható.Az egyiket megtöltjük valamilyen koncentrációjú jelző anyaggal.Amint kinyitjuk a szelepet anyagáramlás lép fel a csőben végül a két tartály koncentrációja kiegyenlítődik.<br>Turbulens diffúzió: A diffúzió fogalmat nemcsak a molekuláris diffúzióra értjük.Folyadékokban és gázokban nagyságrendekkel nagyobb átkeveredés jöhet létre.Ha a folyadékban, gázokban turbulens áramlás lép fel a részecskék a sebesség kaotikus pulzációja nyomán és a koncentráció ingadozása révén átkeverednek.A turbulens diffúzió konvekció függő(áramlás függő). A turbulens diffúzió nem valós diffúzió, hanem matematikai, azaz a gázok,folyadékok áramlását némi absztrakcióval egy diffúziós jelenségre vezetjük vissza. A diffúziót D-vel jelöljük és az indexe a diffúzió milyenségét jelöli (molekuláris, hossz vagy vertikális diffúzió stb.) Mértékegysége m2 / s<br>&nbsp;<br><br><br>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        }
+      ]
+    }
+  }
+}
