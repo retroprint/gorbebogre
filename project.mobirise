@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.10.5",
-    "uniqCompNum": 54,
+    "uniqCompNum": 55,
     "versionPublish": "3.10.5",
     "favicon": "@PROJECT_PATH@/assets/images/logopixel-128x129.png",
     "noImageResize": "",
@@ -318,7 +318,7 @@
             "Theme"
           ],
           "_name": "form1",
-          "_anchor": "form1-1h",
+          "_anchor": "form1-1i",
           "_params": {
             "labelsColor": "#232323",
             "paddingTop": 3,
@@ -332,20 +332,20 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
             "showTitle": true,
-            "showSubTitle": true
+            "showSubTitle": false
           },
-          "title": "CONTACT FORM",
-          "subtitle": "",
+          "title": "KAPCSOLAT",
+          "subtitle": "hamarosan",
           "form": {
             "action": "r3g1str4l@gmail.com",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "Köszönjük érdeklődését, hamarosan jelentkezünk!"
             },
             "fields": {
               "name": {
                 "title": "Name",
                 "visible": true,
-                "customTitle": "Name*"
+                "customTitle": "Név*"
               },
               "email": {
                 "title": "Email",
@@ -355,15 +355,15 @@
               "phone": {
                 "title": "Phone",
                 "visible": true,
-                "customTitle": "Phone"
+                "customTitle": "Telefon"
               },
               "message": {
                 "title": "Message",
-                "customTitle": "Message"
+                "customTitle": "Üzenet"
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ELKÜLDÖM</a>",
           "_styles": {
             ".form-control-label": {
               "color": "#232323"
