@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.10.5",
-    "uniqCompNum": 53,
+    "uniqCompNum": 54,
     "versionPublish": "3.10.5",
     "favicon": "@PROJECT_PATH@/assets/images/logopixel-128x129.png",
     "noImageResize": "",
@@ -318,12 +318,7 @@
             "Theme"
           ],
           "_name": "form1",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          },
-          "_anchor": "form1-1g",
+          "_anchor": "form1-1h",
           "_params": {
             "labelsColor": "#232323",
             "paddingTop": 3,
@@ -339,18 +334,18 @@
             "showTitle": true,
             "showSubTitle": true
           },
-          "title": "KAPCSOLAT",
-          "subtitle": "Ha szeretné felvenni velünk a kapcsolatot, kéjük adja meg elérhetőségét!",
+          "title": "CONTACT FORM",
+          "subtitle": "",
           "form": {
             "action": "r3g1str4l@gmail.com",
             "alerts": {
-              "success": "Köszönjűk érdeklődését, hamarosan jelentkezünk!"
+              "success": "Thanks for filling out form!"
             },
             "fields": {
               "name": {
                 "title": "Name",
                 "visible": true,
-                "customTitle": "Név*"
+                "customTitle": "Name*"
               },
               "email": {
                 "title": "Email",
@@ -364,11 +359,16 @@
               },
               "message": {
                 "title": "Message",
-                "customTitle": "Üzenet:"
+                "customTitle": "Message"
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ELKÜLDÖM</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          }
         }
       ]
     },
